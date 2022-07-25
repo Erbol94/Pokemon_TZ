@@ -1,0 +1,20 @@
+.header {
+    background-color: #c83c29;
+    height: 85px;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul li {
+    list-style: none;
+    padding: 20px;
+}
+.ul {
+    display: flex;
+}
+.ul li .link{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}

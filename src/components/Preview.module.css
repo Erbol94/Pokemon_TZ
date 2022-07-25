@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+.filters {
+    border-right: 6px solid #121212;
+    padding-right: 20px;
+    position: relative;
+}
+.card {
+    width: 845px; 
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card p {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.sorting {
+    width: 350px;
+}
+.sorting h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.sorting ul {
+    display: flex;
+}
+.sorting ul li{
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: underline;
+}
